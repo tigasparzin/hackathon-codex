@@ -4,7 +4,7 @@ MCP em Python para conectar no Jira Cloud e manipular qualquer endpoint da API R
 
 ## 1) Credenciais (Jira Cloud)
 
-Para Jira Cloud (seu caso: `theocgaspar.atlassian.net`), use:
+Para Jira Cloud (seu caso: `tigasparzin.atlassian.net`), use:
 
 - `JIRA_BASE_URL`: URL da instancia
 - `JIRA_EMAIL`: e-mail da conta Atlassian
@@ -23,7 +23,7 @@ Como gerar o token:
 2. Preencha os valores reais:
 
 ```env
-JIRA_BASE_URL=https://theocgaspar.atlassian.net
+JIRA_BASE_URL=https://tigasparzin.atlassian.net
 JIRA_EMAIL=seu-email-atlassian@dominio.com
 JIRA_API_TOKEN=seu_token
 JIRA_TIMEOUT_SECONDS=30
@@ -48,9 +48,9 @@ Esse servidor usa transporte `stdio`, ideal para ser executado diretamente pelo 
 Configure um servidor MCP no Codex apontando para:
 
 - Command: `python`
-- Args: `C:\\Users\\theoc\\Documents\\New project\\jira_mcp_server.py`
-- Working directory: `C:\\Users\\theoc\\Documents\\New project`
-- Env file: `C:\\Users\\theoc\\Documents\\New project\\.env`
+- Args: `C:\\Users\\tigasparzin\\Documents\\New project\\jira_mcp_server.py`
+- Working directory: `C:\\Users\\tigasparzin\\Documents\\New project`
+- Env file: `C:\\Users\\tigasparzin\\Documents\\New project\\.env`
 
 ## 6) Ferramentas disponiveis
 
